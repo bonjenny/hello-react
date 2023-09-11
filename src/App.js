@@ -3,12 +3,8 @@ import './App.css';
 import { Fragment } from 'react';
 
 function App() {
-  return (
-    <Fragment>
-      <h1>리액트 안녕!</h1>
-      <h2>잘 작동하니?</h2>
-    </Fragment>
-  );
+  const name = '뤼왝트';
+  return <div>{name === '리액트' ? <h1>리액트입니다.</h1> : <h2>리액트가 아닙니다.</h2>}</div>;
 }
 
 export default App;
