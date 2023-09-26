@@ -1,9 +1,9 @@
 import { Component } from 'react';
 import './App.css';
 
+const name = 'react';
 class App extends Component {
   render() {
-    const name = 'react';
     return <div className="react">{name}</div>;
   }
 }
